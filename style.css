@@ -1,0 +1,66 @@
+* {
+    font-family: 'Oswald', arial, sans-serif;
+    font-size: 3vh;
+}
+
+.jumbotron {
+    background-color: #CCF9FF;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    /* box-sizing: border-box; */
+}
+
+.ms-auto {
+    text-align: center;
+}
+
+.img-suisei {
+    width: 20vmax; 
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .25);
+    /* margin-left: 100px; */
+}
+
+.btn-suisei {
+    font-size: 1.7vmax;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 15vmax;
+    height: 6vmax;
+    background-color: white;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .25);
+}
+
+.col-md-4 {
+    /* border: 2px solid black; */
+    justify-self: center;
+    margin: auto;
+}
+
+#about {
+    /* overflow: hidden; */
+    padding-top: 5rem; 
+    padding-bottom: 11rem; 
+    background-color: #8ED7E8;
+}
+
+#projects {
+    padding-top: 5rem; 
+    padding-bottom: 11rem; 
+    background-color: #CCF9FF;
+}
+
+.fot {
+    padding: 3px;
+    background-color: #8ED7E8;
+}
+
+@media (min-width: 774px){
+    .ms-auto {text-align: start;}
+
+}
+
